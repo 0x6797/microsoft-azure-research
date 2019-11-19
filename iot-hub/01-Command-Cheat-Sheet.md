@@ -9,6 +9,7 @@
 - [Event Hubs 互換エンドポイントを取得する](#query-event-hub-endpoint)
 - [Event Hubs 互換パスを取得する](#query-event-hub-path)
 - [サービス主キーを取得する](#query-service-primary-key)
+- [サービス接続文字列を取得する](#query-service-connection-string)
 
 ## <a id="1">Microsoft Azure IoT Extension for Azure CLI を Cloud Shell に追加する</a>
 
@@ -57,3 +58,9 @@ az iot hub show --query properties.eventHubEndpoints.events.path --name ${IoTHub
 ```bash
 az iot hub policy show --name service --query primaryKey --hub-name ${IoTHub}
 ```
+
+## <a id="query-service-connection-string">サービス接続文字列を取得する</a>
+
+```bash
+az iot hub show-connection-string --policy-name service --name ${IoTHub} --output table
+- [サービス接続文字列を取得する](#query-service-connection-string)
