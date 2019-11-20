@@ -17,7 +17,7 @@
 az extension add --name azure-cli-iot-ext
 ```
 
-## <a id="create-device>デバイスを IoT Hub に登録する</a>
+## <a id="create-device">デバイスを IoT Hub に登録する</a>
 
 ```bash
 export IoTHub="<IoTHubの名前>"
@@ -63,4 +63,4 @@ az iot hub policy show --name service --query primaryKey --hub-name ${IoTHub}
 
 ```bash
 az iot hub show-connection-string --policy-name service --name ${IoTHub} --output table
-- [サービス接続文字列を取得する](#query-service-connection-string)
+```
