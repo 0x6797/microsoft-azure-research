@@ -11,6 +11,7 @@
 - [IoT Edge デバイスをゲートウェイとして使う場合、何ができるのですか？](#q-gateway2)
 - [クラウドから IoT Edge デバイスに接続されているダウンストリームデバイスにメッセージを送信できますか？](#q-cloud-to-device)
 - [ダウンストリームデバイスは最大何台まで接続できますか？](#q-max-devices)
+- [IoT Edge デバイスでランタイムを実行できるプラットフォーム要件は？](#q-runtime-platform)
 - [IoT Edge モジュールで使用する Docker イメージはどこから取得できますか？](#q-docker-image)
 - [IoT Edge ランタイムと IoT Hub 間の通信はどのプロトコルを使用していますか？](#q-hub-protocol)
 - [ゲートウェイの可用性は IoT Edge で担保されますか？](#q-availability)
@@ -99,6 +100,56 @@ IoT Edge デバイスはゲートウェイ以外の用途でも使用できま�
 ## <a id="q-max-devices">ダウンストリームデバイスは最大何台まで接続できますか？</a>
 
 IoT Edge デバイスのハードウェア性能に依存しますが、ゲートウェイとして IoT Edge デバイスを使用し、かつプロトコル変換を使用した場合においては、デバイスのキューは最大50メッセージという制限があるため、理論値の最大は50台となります。
+
+## <a id="q-runtime-platform">IoT Edge デバイスでランタイムを実行できるプラットフォーム要件は？</a>
+
+プラットフォームの対応レベルが2つ存在しています。それぞれ次の通りです。
+
+- Tier 1<br />Microsoft がそのオペレーティングシステムで自動テストを実施しており、インストールパッケージを提供している
+- Tier 2<br />Microsoft がそのプラットフォームでアドホックなテストを実施してるかパートナーが Azure IoT Edge を正常に実行していることを把握している。
+
+サポートしているコンテナエンジンは Docker ではなく、Moby です。
+
+Tier 1 のオペレーティングシステムは以下のとおりです。
+
+| オペレーティングシステム | AMD64 | ARM32v7 | ARM64 |
+| :----------------- | :---- | :------: | :----- |
+| Raspbian Stretch  |   | ✅ |  |
+| Ubuntu Server 16.04 | ✅ |  | パブリック プレビュー |
+| Ubuntu Server 18.04 | ✅ |  | パブリック プレビュー |
+| Windows 10 IoT Core Build 17763 | ✅ | | |
+| Windows 10 IoT Enterprise Build 17763 | ✅ |  |  |
+| Windows Server 2019 Build 17763 | ✅ |  | |
+| Windows Server IoT 2019 | ✅ |  | |
+
+Windows については、Windows コンテナーを実行します。
+
+Tier 2 のオペレーティングシステムについては以下のとおりです。
+
+| オペレーティングシステム | AMD64 | ARM32v7 | ARM64 |
+| :---------------- | :---: | :-----: | :----: |
+| CentOS 7.5 | ✅ | ✅ | ✅ |
+| Debian 8 | ✅ | ✅ | ✅ |
+| Debian 9 | ✅ | ✅ | ✅ |
+| Debian 10 | ✅ | ✅ | ✅ |
+| Mentor Embedded Linux Flex OS | ✅ | ✅ | ✅ |
+| Mentor Embedded Linux Omni OS | ✅ |   | ✅ |
+| RHEL 7.5 | ✅ | ✅ | ✅ |
+| Ubuntu 16.04 | ✅ | ✅ | ✅ |
+| Ubuntu 18.04 | ✅ | ✅ | ✅ |
+| Wind River 8 | ✅ |   |   |
+| Yocto | ✅ | ✅ | ✅ |
+| Raspbian Buster |   | ✅ | ✅ |
+
+また、以下の要素によりハードウェア要件が変わります。
+
+- IoT Edge モジュールがいくつ実行されるか？
+- IoT Edge モジュールが共有するレイヤーはいくつあるか？
+- IoT Edge モジュールはどの言語で作成されているか？
+- IoT Edge モジュールで処理されるデータはどのぐらいあるか？
+- IoT Edge モジュールのための特殊なハードウェアが存在するか？
+- ソリューションの望ましいパフォーマンス特性はどのようなものか？
+- ハードウェアの予算はどのくらいか？
 
 ## <a id="q-docker-image">IoT Edge モジュールで使用する Docker イメージはどこから取得できますか？</a>
 
