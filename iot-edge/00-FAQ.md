@@ -10,8 +10,14 @@
 - [IoT Edge デバイスとはクラウドとのゲートウェイと違うのですか？](#q-gateway)
 - [IoT Edge デバイスをゲートウェイとして使う場合、何ができるのですか？](#q-gateway2)
 - [クラウドから IoT Edge デバイスに接続されているダウンストリームデバイスにメッセージを送信できますか？](#q-cloud-to-device)
+- [ダウンストリームデバイスは最大何台まで接続できますか？](#q-max-devices)
 - [IoT Edge モジュールで使用する Docker イメージはどこから取得できますか？](#q-docker-image)
 - [IoT Edge ランタイムと IoT Hub 間の通信はどのプロトコルを使用していますか？](#q-hub-protocol)
+- [ゲートウェイの可用性は IoT Edge で担保されますか？](#q-availability)
+
+## 参考
+
+[運用環境デプロイのチェックリスト](https://docs.microsoft.com/ja-jp/azure/iot-edge/production-checklist)
 
 
 ## <a id="q-about">Azure IoT Edge とは何ですか？</a>
@@ -89,6 +95,11 @@ IoT Edge デバイスはゲートウェイ以外の用途でも使用できま�
 
 ただし、ゲートウェイでプロトコル変換を行っている場合は送信できません。
 
+- [ダウンストリームデバイスは最大何台まで接続できますか？](#q-max-devices)
+## <a id="q-max-devices">ダウンストリームデバイスは最大何台まで接続できますか？</a>
+
+IoT Edge デバイスのハードウェア性能に依存しますが、ゲートウェイとして IoT Edge デバイスを使用し、かつプロトコル変換を使用した場合においては、デバイスのキューは最大50メッセージという制限があるため、理論値の最大は50台となります。
+
 ## <a id="q-docker-image">IoT Edge モジュールで使用する Docker イメージはどこから取得できますか？</a>
 
 基本的には Docker ファイルから Docker イメージを作成しコンテナリポジトリにプッシュします。
@@ -99,4 +110,8 @@ IoT Edge デバイスはゲートウェイ以外の用途でも使用できま�
 
 ## <a id="q-hub-protocol">IoT Edge ランタイムと IoT Hub 間の通信はどのプロトコルを使用していますか？</a>
 
-AMQP および AMQP over WebSocket です。
+AMQP 1.0 および AMQP over WebSocket です。
+
+## <a id="q-availability">ゲートウェイの可用性は IoT Edge で担保されますか？</a>
+
+IoT Edge では特に可用性に関するサポートは提供されていません。したがって、ゲートウェイの可用性はユーザーが設計／担保する必要があります。
