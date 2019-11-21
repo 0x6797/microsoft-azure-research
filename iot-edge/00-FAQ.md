@@ -14,6 +14,7 @@
 - [IoT Edge モジュールで使用する Docker イメージはどこから取得できますか？](#q-docker-image)
 - [IoT Edge ランタイムと IoT Hub 間の通信はどのプロトコルを使用していますか？](#q-hub-protocol)
 - [ゲートウェイの可用性は IoT Edge で担保されますか？](#q-availability)
+- [IoT Edge を使用するのに料金はどの程度かかりますか？](#q-price)
 
 ## 参考
 
@@ -64,7 +65,7 @@ IoT Edge モジュールを統合し、クラウド上の IoT Hub との通信�
 
 ## <a id="q-downstream-device">ダウンストリームデバイスとは何ですか？</a>
 
-IoT Edge デバイスに接続されているエッジ側のデバイスです。
+IoT Edge デバイスに接続されているエッジ側のデバイスです。IoT Hub デバイスやレガシーデバイスに対応し、IoT Edge デバイスをそれらの親デバイスとして関連付けることが可能です。
 
 ## <a id="q-gateway">IoT Edge デバイスとはクラウドとのゲートウェイと違うのですか？</a>
 
@@ -95,7 +96,6 @@ IoT Edge デバイスはゲートウェイ以外の用途でも使用できま�
 
 ただし、ゲートウェイでプロトコル変換を行っている場合は送信できません。
 
-- [ダウンストリームデバイスは最大何台まで接続できますか？](#q-max-devices)
 ## <a id="q-max-devices">ダウンストリームデバイスは最大何台まで接続できますか？</a>
 
 IoT Edge デバイスのハードウェア性能に依存しますが、ゲートウェイとして IoT Edge デバイスを使用し、かつプロトコル変換を使用した場合においては、デバイスのキューは最大50メッセージという制限があるため、理論値の最大は50台となります。
@@ -115,3 +115,16 @@ AMQP 1.0 および AMQP over WebSocket です。
 ## <a id="q-availability">ゲートウェイの可用性は IoT Edge で担保されますか？</a>
 
 IoT Edge では特に可用性に関するサポートは提供されていません。したがって、ゲートウェイの可用性はユーザーが設計／担保する必要があります。
+
+## <a id="q-price">IoT Edge を使用するのに料金はどの程度かかりますか？</a>
+
+IoT Edge ランタイムには課金はされていません。
+
+IoT Edge モジュールで以下のサービスを使用する場合、別途料金がかかります。
+
+| IoT Edge モジュール | 料金（月額） |
+| :---------------- | --------: |
+| Azure Stream Analytics on IoT Edge | 112 JPY/デバイス/月 |
+| Azure SQL Database | ライセンス料 |
+
+その他のサードパーティの証明済み Edge モジュールについては [Azure Marketplace](https://azuremarketplace.microsoft.com/ja-jp/marketplace/apps/category/internet-of-things?page=1&subcategories=iot-edge-modules) を参照して下さい。
