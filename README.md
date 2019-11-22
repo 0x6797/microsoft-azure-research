@@ -6,3 +6,6 @@
 
 ![Azure IoT Solution Technology](paas-saas-technologies-solutions.png)
 
+## Azure IoT Hub を中心とした参照アーキテクチャ
+
+![Azure IoT Hub Reference Archtecture](iot.png)
