@@ -20,3 +20,13 @@
 # Azure IoT Hub を中心とした参照アーキテクチャ
 
 ![Azure IoT Hub Reference Archtecture](iot.png)
+
+# Azure IoT Hub のコンセプトモデル
+
+![Azure IoT Hub のコンセプトモデル](azure-iot-hub-concept-model.vpd.png)
+
+# コード
+
+## Azure IoT
+
+- [デバイスシミュレータ](http://158.201.117.62/gitbucket/p0075317/device-simulation-dotnet)
