@@ -17,6 +17,8 @@
 - [Azure Stream Analytics](stream-analytics/00-FAQ.md)
 - [Azure Time Series Insights](time-series-insights/00-FAQ.md)
 - [Azure App Service](app-service/00-FAQ.md)
+- [Azure DevOps](devops/01-Overview.md)
+- [Azure HDInsight](hd-insight/00-FAQ.md)
 
 # Azure IoT Hub を中心とした参照アーキテクチャ
 

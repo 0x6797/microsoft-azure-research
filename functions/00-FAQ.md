@@ -7,6 +7,10 @@
 - [各プランには制限がありますか？](#q-plan-quotas)
 - [どのプランを選んでだらいいでしょうか？](#q-plan)
 - [ステートフルな関数を記述したい場合はどうすればいいでしょうか？](#q-durable)
+- [Azure Functions の簡単な仕組みを教えて下さい](#q-simple-structure)
+- [トリガーとバインディングがサポートされているサービスは何ですか？](#q-bindings)
+- [Azure Functions は Windows でのみ実行できますか？](#q-platform)
+- [Azure Functions はローカルでも開発できますか？](#q-local)
 
 ## <a id="q-about">Azure Functions とは何ですか？</a>
 
@@ -65,3 +69,60 @@
 ## <a id="q-durable">ステートフルな関数を記述したい場合はどうすればいいでしょうか？</a>
 
 Durable Functions を使用して下さい。Durable Functions で実装されるパターンについては、[Durable Functions とは](https://docs.microsoft.com/ja-jp/azure/azure-functions/durable/durable-functions-overview) を参照して下さい。
+
+## <a id="q-simple-structure">Azure Functions の簡単な仕組みを教えて下さい</a>
+
+Azure Functions の最も簡単な仕組みは以下のようになります。
+
+![Azure Functions の簡単な仕組み](azure-functions-basic.png)
+
+- トリガーは Azure Functoins が起動するイベントです。(例：Queue)
+- バインディングは入力と出力のデータソースです。(例：BOLB ストレージ)
+
+## <a id="q-bindings">トリガーとバインディングがサポートされているサービスは何ですか？</a>
+
+Azure Functions でサポートされているトリガーおよびバインディングは以下のとおりです。
+
+| 種類    | 1.x    | 2.x    | トリガー | 入力 | 出力 |
+| :----- | :----: | :----: | :----: | :----: | :---: |
+| Blob Storage | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Cosmos DB | ✅ | ✅ | ✅ | ✅ | ✅ |
+| Event Grid | ✅ | ✅ | ✅ |   |   |
+| Event Hubs | ✅ | ✅ | ✅ |   | ✅ |
+| HTTP と Webフック | ✅ | ✅ | ✅ |   | ✅ |
+| IoT Hub | ✅ | ✅ | ✅ |   | ✅ |
+| Microsoft Graph<br />Excel テーブル |   | ✅ | ✅ |   | ✅ |
+| Microsoft Graph<br />OneDrive ファイル |   | ✅ | ✅ |   | ✅ |
+| Microsoft Graph<br />Outlook メール |   | ✅ |   |   | ✅ |
+| Microsoft Graph<br />イベント |   | ✅ | ✅ | ✅ | ✅ |
+| Microsoft Graph<br />Auth トークン |   | ✅ |   | ✅ |   |
+| Mobile Apps | ✅ |   |   | ✅ |✅ |
+| Notification Hubs | ✅ |  |  |  | ✅ |
+| Queue Storage | ✅ | ✅ | ✅ |   | ✅ |
+| SendGrid | ✅ | ✅ |  |  | ✅ |
+| Service Bus | ✅ | ✅ | ✅ |  | ✅ |
+| SignalR |  | ✅ |   | ✅ | ✅ |
+| Table Storage | ✅ | ✅ |   | ✅ | ✅ |
+| Timer  | ✅ | ✅ | ✅ |   |  |
+| Twillo | ✅ | ✅ |    |  | ✅ |
+ 
+
+## <a id="q-platform">Azure Functions は Windows でのみ実行できますか？</a>
+
+Linux でも実行できます。
+
+## <a id="q-local">Azure Functions はローカルでも開発できますか？</a>
+
+Azure サービスに接続するローカルな環境を構築することで、ローカルで開発およびデバッグが可能です。
+
+- Azure Functions 1.x は　Windows のみ開発可能です
+- Azure Functions 2.x は Linux、MacOS および Windows で開発可能です。
+
+環境はプログラミングする言語とツールの設定により異なります。
+
+| 環境 | プログラミング言語 | 説明 |
+| :---- | :----- | :--------- |
+| Visual Studio Code | C#(クラスライブラリ)<br />C# スクリプト(.csx)<br />JavaScript<br />PowerShell<br />Python | VS Code 用の Azure Functoins 拡張および [Azure Functions Core Tools](https://www.npmjs.com/package/azure-functions-core-tools) が必要です。 |
+| コマンドプロンプト<br />ターミナル | C#(クラスライブラリ)<br />C# スクリプト(.csx)<br />JavaScript<br />PowerShell<br />Python | [Azure Functions Core Tool](https://www.npmjs.com/package/azure-functions-core-tools) が必要です。
+| Visual Studio 2019 | C#(クラスライブラリ) | Azure に対して `.dll` の発行が可能 |
+| Maven | Java | Core Tools を使用します。 |
