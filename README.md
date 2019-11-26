@@ -17,6 +17,8 @@
 - [Azure Stream Analytics](stream-analytics/00-FAQ.md)
 - [Azure Time Series Insights](time-series-insights/00-FAQ.md)
 - [Azure App Service](app-service/00-FAQ.md)
+- [Azure Blob Storage](blob-storage/00-FAQ.md)
+- [Azure Logic Apps](logic-apps/00-FAQ.md)
 - [Azure DevOps](devops/01-Overview.md)
 - [Azure HDInsight](hd-insight/00-FAQ.md)
 
@@ -32,4 +34,5 @@
 
 ## Azure IoT
 
+- [クイックスタート(C#)](http://158.201.117.62/gitbucket/p0075317/azure-iot-samples-csharp-master)
 - [デバイスシミュレータ](http://158.201.117.62/gitbucket/p0075317/device-simulation-dotnet)
