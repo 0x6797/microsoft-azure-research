@@ -10,17 +10,25 @@
 
 ## よくありそうな質問
 
-- [Azure IoT Hub](iot-hub/00-FAQ.md)
-- [Azure IoT Device Provisioning Service](iot-hub-device-provisioning-service/00-FAQ.md)
-- [Azure IoT Edge](iot-edge/00-FAQ.md)
-- [Azure Functions](functions/00-FAQ.md)
-- [Azure Stream Analytics](stream-analytics/00-FAQ.md)
-- [Azure Time Series Insights](time-series-insights/00-FAQ.md)
-- [Azure App Service](app-service/00-FAQ.md)
-- [Azure Blob Storage](blob-storage/00-FAQ.md)
-- [Azure Logic Apps](logic-apps/00-FAQ.md)
-- [Azure DevOps](devops/01-Overview.md)
-- [Azure HDInsight](hd-insight/00-FAQ.md)
+- IoT
+    - [Azure IoT Hub](iot-hub/00-FAQ.md)
+    - [Azure IoT Device Provisioning Service](iot-hub-device-provisioning-service/00-FAQ.md)
+    - [Azure IoT Edge](iot-edge/00-FAQ.md)
+- アプリケーションロジック
+    - [Azure Functions](functions/00-FAQ.md)
+    - [Azure App Service](app-service/00-FAQ.md)
+    - [Azure Logic Apps](logic-apps/00-FAQ.md)
+- ストレージ
+    - [Azure Blob Storage](blob-storage/00-FAQ.md)
+- 分析
+    - [Azure Stream Analytics](stream-analytics/00-FAQ.md)
+    - [Azure Time Series Insights](time-series-insights/00-FAQ.md)
+    - [Azure HDInsight](hd-insight/00-FAQ.md)
+- 運用監視
+    - [Azure Monitor](azure-monitor/00-FAQ.md)
+    - [Azure Application Insights](application-insights/00-FAQ.md)
+- 開発
+    - [Azure DevOps](devops/01-Overview.md)
 
 # Azure IoT Hub を中心とした参照アーキテクチャ
 
@@ -29,6 +37,12 @@
 # Azure IoT Hub のコンセプトモデル
 
 ![Azure IoT Hub のコンセプトモデル](azure-iot-hub-concept-model.vpd.png)
+
+# Azure IoT Central、Azure IoT ソリューションアクセラレータ　および Azure IoT Hub の関係
+
+- Azure IoT Central <br />IoT PnP 対応デバイスを用意すれば、すぐ使える Web アプリ
+- Azure IoT ソリューションアクセラレータ<br />一般的な IoT シナリオを構築済みの IoT プラットフォーム
+- Azure IoT Hub <br />PaaS 製品
 
 # コード
 
