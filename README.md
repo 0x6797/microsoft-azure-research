@@ -50,3 +50,7 @@
 
 - [クイックスタート(C#)](http://158.201.117.62/gitbucket/p0075317/azure-iot-samples-csharp-master)
 - [デバイスシミュレータ](http://158.201.117.62/gitbucket/p0075317/device-simulation-dotnet)
+
+## その他
+
+- iPad あるいは iPhone アプリで Azure の状態を見ることができます。
