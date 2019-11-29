@@ -7,7 +7,6 @@
 - [更新管理は一括で行うべきか？あるいはグループに分けて更新を行うべきか？](#update-management)
 - [仮想マシンの数はできるだけ最小限にすべき？](#using-vm)
 - [Azure AD は分けるか統合するか？](ad-integration)
-- [Kubernetes のデータバックアップってどうするの？](k8s-backup)
 
 ## <a id="subscription">サブスクリプションは細かく分けるべき？</a>
 
@@ -47,3 +46,4 @@
 ## <a id="ad-integration">Azure AD は分けるか統合するか？</a>
 
 - テナントでわける？統合する？
+  - ユーザーのドメイン名が共通なら統合するべき？

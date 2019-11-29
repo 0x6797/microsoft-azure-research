@@ -20,6 +20,7 @@
     - [Azure Logic Apps](logic-apps/00-FAQ.md)
 - ストレージ
     - [Azure Blob Storage](blob-storage/00-FAQ.md)
+    - [Azure Cosmos DB](cosmos-db/00-FAQ.md)
 - 分析
     - [Azure Stream Analytics](stream-analytics/00-FAQ.md)
     - [Azure Time Series Insights](time-series-insights/00-FAQ.md)
@@ -27,6 +28,9 @@
 - 運用監視
     - [Azure Monitor](azure-monitor/00-FAQ.md)
     - [Azure Application Insights](application-insights/00-FAQ.md)
+    - [Azure Automation](automation/00-FAQ.md)
+- ID、ユーザー管理
+    - [Azure Active Directory](azure-ad/00-FAQ.md)]
 - 開発
     - [Azure DevOps](devops/01-Overview.md)
 
