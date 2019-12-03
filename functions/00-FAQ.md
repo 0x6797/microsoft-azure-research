@@ -11,6 +11,8 @@
 - [トリガーとバインディングがサポートされているサービスは何ですか？](#q-bindings)
 - [Azure Functions は Windows でのみ実行できますか？](#q-platform)
 - [Azure Functions はローカルでも開発できますか？](#q-local)
+- [Azure Functions はオンプレミスでも動きますか？](#q-onpremises)
+- [Azure Kubernetes Services でも Azure Functions を使用できるのですか？](#q-aks)
 
 ## <a id="q-about">Azure Functions とは何ですか？</a>
 
@@ -126,3 +128,18 @@ Azure サービスに接続するローカルな環境を構築することで�
 | コマンドプロンプト<br />ターミナル | C#(クラスライブラリ)<br />C# スクリプト(.csx)<br />JavaScript<br />PowerShell<br />Python | [Azure Functions Core Tool](https://www.npmjs.com/package/azure-functions-core-tools) が必要です。
 | Visual Studio 2019 | C#(クラスライブラリ) | Azure に対して `.dll` の発行が可能 |
 | Maven | Java | Core Tools を使用します。 |
+
+## <a id="q-onpremises">Azure Functions はオンプレミスでも動きますか？</a>
+
+[KEDA](https://github.com/kedacore/keda) を有効にした Kubernetes クラスタであれば、オンプレミスに Docker コンテナで Azure Functions をデプロイできます。KEDA は [Azure Funcitons Core Tools](https://docs.microsoft.com/ja-jp/azure/azure-functions/functions-run-local) を使用してインストールします。
+
+ただし、使用できるトリガーに制限があります。現在β版で以下のトリガーがサポートされます。
+
+- Azure Storage キュー
+- Azure Service Bus キュー
+- HTTP
+- Apache Kafka
+
+## <a id="q-aks">Azure Kubernetes Services でも Azure Functions を使用できるのですか？</a>
+
+オンプレミスと同様の方法と制限のもとで使用できます。

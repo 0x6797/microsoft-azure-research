@@ -27,10 +27,12 @@
     - [Azure HDInsight](hd-insight/00-FAQ.md)
 - 運用監視
     - [Azure Monitor](azure-monitor/00-FAQ.md)
+    - [Azure Log Analytics](log-analytics/00-FAQ.md)
     - [Azure Application Insights](application-insights/00-FAQ.md)
     - [Azure Automation](automation/00-FAQ.md)
-- ID、ユーザー管理
+- ID、ユーザーおよびロール管理
     - [Azure Active Directory](azure-ad/00-FAQ.md)]
+    - [Azure Role Based Access Control](rbac/00-FAQ.md)
 - 開発
     - [Azure DevOps](devops/01-Overview.md)
 
