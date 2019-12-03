@@ -60,3 +60,12 @@
 ## その他
 
 - iPad あるいは iPhone アプリで Azure の状態を見ることができます。
+- [Azure Stack Edge](https://azure.microsoft.com/ja-jp/services/databox/edge/)<br />Edge 用ハードウェア。Commercial シリーズ（ブレード）と Rougged シリーズ（現場用）がある。Azure VM と Azure AKS(Kubernetes) クラスタもサポート
+
+### Commercial シリーズ
+
+![Commercialシリーズ](commercial.png)
+
+### Rugged シリーズ
+
+![Rugged シリーズ](rugged.png)
