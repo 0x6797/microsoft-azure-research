@@ -9,18 +9,18 @@
 
 ## カンバンボードを開く
 
-1. Webブラウザーから、組織のプロジェクトを開き、Azure Boardsを選択します。プロジェクトがない場合は、[ここ](https://docs.microsoft.com/ja-jp/azure/devops/user-guide/sign-up-invite-teammates?view=azure-devops)で作成してください。 チームメンバーとして追加されていない場合は、[今すぐ招待](https://docs.microsoft.com/ja-jp/azure/devops/user-guide/sign-up-invite-teammates?view=azure-devops#invite-others)してください。
+1. Webブラウザーから、組織のプロジェクトを開き、Azure Boardsを選択します。プロジェクトがない場合は、[ここ](https://docs.microsoft.com/ja-jp/azure/devops/user-guide/sign-up-invite-teammates?view=azure-devops)で作成してください。 チームメンバーとして追加されていない場合は、[今すぐ招待](https://docs.microsoft.com/ja-jp/azure/devops/user-guide/sign-up-invite-teammates?view=azure-devops#invite-others)してください。<br />
     
-    URL は次のパターンに従います : `https://dev.azure.com/fabrikamfiber/_boards/board`
+    URL は次のパターンに従います : `https://dev.azure.com/fabrikamfiber/_boards/board`<br />
 
     目的のチームまたはプロジェクトが表示されない場合は、Azure DevOpsアイコン(![プロジェクト](project-icon.png))を選択して、[すべてのプロジェクトとチームを参照](https://docs.microsoft.com/ja-jp/azure/devops/project/navigation/work-across-projects?view=azure-devops)します。
-1. ボードを選択して、カンバンボードを開きます。
+1. ボードを選択して、カンバンボードを開きます。<br />
 
     ![ボード](azure-devops-boards-board.png)
 
 ## テストの追加
 
-1. テストを追加するには、作業項目のメニューを開きます。
+1. テストを追加するには、作業項目のメニューを開きます。<br />
 
     ![テストの追加](add-manual-test.png)
 

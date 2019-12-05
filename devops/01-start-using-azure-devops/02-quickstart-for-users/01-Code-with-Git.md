@@ -15,7 +15,7 @@ Gitリポジトリを操作するには、コンピューターに複製しま�
 ## リポジトリをコンピューターに複製
 
 1. Webブラウザーから、組織のプロジェクトを開き、**リポジトリ** を選択します。 プロジェクトがない場合は、[ここで作成してください](https://docs.microsoft.com/ja-jp/azure/devops/user-guide/sign-up-invite-teammates?view=azure-devops)。<br />![リポジトリの選択](project-select-repos-vert.png)
-1. コードウィンドウの右上隅にある **複製(クローン)** を選択し、URLをコピーします。<br />![コードのクローン](code-with-git-clone.png)
+1. コードウィンドウの右上隅にある **複製(クローン)** を選択し、URLをコピーします。<br />![コードのクローン](code-with-git-clone-repo.png)
 1. Gitコマンドウィンドウ（Git for WindowsのGit Bash）を開きます。リポジトリのコードをコンピューターに保存するフォルダーに移動し、`git clone` を実行してから、前の手順で **Clone URL** からコピーしたパスを実行します。 次の例を参照してください。<br />
     ```bash
     git clone https://contoso-ltd.visualstudio.com/MyFirstProject/_git/contoso-demo
@@ -47,6 +47,7 @@ Gitリポジトリを操作するには、コンピューターに複製しま�
 ## 履歴の表示
 
 1. Webポータルに戻り、コードページから **履歴** を選択して、新しいコミットを表示します。
+
     ![履歴](code-history-vert.png)
 1. **ファイル** タブに切り替え、`README` ファイルを選択して変更を表示します。
 

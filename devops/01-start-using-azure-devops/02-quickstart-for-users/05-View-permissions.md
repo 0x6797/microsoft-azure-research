@@ -11,49 +11,47 @@
 - 権限を表示するには、プロジェクトの有効なユーザーグループまたはプロジェクトコレクションの有効なユーザーグループのメンバーである必要があります。
 
 <div style="background-color:#4527a0; padding: 0.8rem; color:white;">
-注意
-
+注意<br /><br />
 この記事では、プロジェクトレベルまたはコレクションレベルでユーザーに割り当てられた権限を表示する方法を示します。 ただし、オブジェクトのセキュリティダイアログから作業する場合の手順は似ています。
 </div>
 
 ## プロジェクトレベルの権限を表示する
 
 <div style="background-color:#4527a0; padding: 0.8rem; color:white;">
-注意
-
+注意<br /><br />
 プロジェクトの権限設定ページの新しいユーザーインターフェイスを有効にするには、[プレビュー機能を有効にする](https://docs.microsoft.com/ja-jp/azure/devops/project/navigation/preview-features?view=azure-devops)をご覧ください。
 </div>
 
 ### 現状の場合
 
 1. **プロジェクトの設定**、**セキュリティ** の順に選択します。
-
+    <br />
     ![セキュリティ](open-security-project-level-vert-expanded.png)
 1. **ユーザーとグループのフィルター** ボックスに名前を入力し始めます。 システムは、入力した文字で始まる名前を自動的に表示します。
-    
+    <br /> 
     ![ユーザーとグループのフィルター](search-user-name-vert-nav.png)
 1. 好きな名前を選択してください。 設定したプロジェクトレベルの権限は、所属するグループまたはアカウントに設定された権限に基づいています。
-
+    <br />
     ![ユーザーの権限](project-level-user-permissions-vsts.png)
 1. **メンバー** を選択して、ユーザーが属するセキュリティグループを確認します。
-
+    <br />
     ![メンバーの権限](project-level-member-of-permissions-vsts.png)
 
 ## プレビュー版の場合
 
 1. **プロジェクトの設定** を選択し、**権限** を選択します。
-
+    <br />
     ![権限](open-project-settings-permissions-preview.png)
 1. **ユーザー** を選択します。 リストをフィルタリングするには、**検索グループまたはユーザー** ボックスに名前を入力します。
-
+    <br />
     ![ユーザーの検索](search-user-name-s154.png)
 1. 好きな名前を選択してください。 そのユーザーのプロジェクトレベルの権限が表示されます。 これらの権限は、ユーザーが属するグループまたはユーザーのアカウント専用に設定された権限に基づいています。
-
+    <br />
     ![メンバーの権限](user-permissions-s154.png)
 1. **メンバー** を選択して、ユーザーが属するセキュリティグループとチームを確認します。
-
+    <br />
     ここで、Jamal Hartnettは複数のチームと、複数のプロジェクトのProject Collection Administratorsグループに属していることがわかります。
-
+    <br />
     ![権限の表示](member-of-view-s154.png)
 
 ## 組織またはコレクションレベルの権限を表示する
@@ -61,16 +59,16 @@
 組織またはプロジェクトコレクションの管理設定を開きます。
 
 <div style="background-color:#4527a0; padding: 0.8rem; color:white;">
-注意
+注意<br /><br />
 
 **組織のアクセス許可の設定ページv2** の新しいユーザーインターフェイスを有効にするには、[プレビュー機能を有効にする](https://docs.microsoft.com/ja-jp/azure/devops/project/navigation/preview-features?view=azure-devops)を参照してください。 プレビューページには、現在のページにはないグループ設定ページがあります。
 </div>
 
 1. Azure DevOpsロゴ(![ロゴ](project-icon.png))を選択して、プロジェクトを開きます。 次に、組織設定を選択します。
-
+    <br />
     ![組織設定](open-admin-settings-vert.png)
 1. **権限**、**プロジェクトコレクション管理者**グループ、**メンバー**の順に選択します。
-
+    <br />
     ![プロジェクトコレクション管理者](project-collection-admin-users-s154.png)
 1. プロジェクトレベルの権限の表示については、前述の手順のステップ2〜4に従ってください。
 
