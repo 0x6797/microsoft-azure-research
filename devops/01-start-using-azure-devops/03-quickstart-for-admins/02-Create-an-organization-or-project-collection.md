@@ -6,7 +6,7 @@
 
 1. [組織構造を計画する](https://docs.microsoft.com/ja-jp/azure/devops/user-guide/plan-your-azure-devops-org-structure?view=azure-devops)方法を読んで理解します。
 1. 組織でMicrosoftアカウントのみを使用する場合は、次の手順を実行します。
-
+    <br /><br />
     Azure ADがなければ、組織のアクセスを制御する責任はお客様にあります。 そして、すべてのユーザーはMicrosoftアカウントでサインインする必要があります。 [他の違いは何ですか？](https://docs.microsoft.com/ja-jp/azure/devops/organizations/accounts/faq-create-organization?view=azure-devops#SignInOrganizationDifferences)
 
     - Microsoftアカウントを持っていない場合は、Azure DevOpsにサインアップするときに作成できます。
@@ -20,11 +20,12 @@
 
 1. [Azure DevOps](https://go.microsoft.com/fwlink/?LinkId=307137) にサインインします。
 1. **新しい組織** を選択します。
+    <br /><br />
     ![新しい組織を選択](select-new-organization.png)
 1. 情報を確認し、**続行** を選択します。
-
+    <br /><br />
     おめでとうございます、あなたは組織のオーナーになりました！
-
+    <br /><br />
     `https://dev.azure.com/{yourorganization}` からいつでも組織にサインインしてください。
 
 ## 次の手順

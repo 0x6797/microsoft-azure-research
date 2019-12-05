@@ -19,28 +19,27 @@
 - チーム通知を構成する
 
 <div style="background-color:#4527a0; padding: 0.8rem; color:white;">
-注意
-
+注意<br /><br />
 チーム管理者に加えて、プロジェクト管理者グループとプロジェクトコレクション管理者グループのすべてのメンバーは、すべてのチームの設定を管理できます。 チームを追加するには、[チームを追加する](https://docs.microsoft.com/ja-jp/azure/devops/organizations/settings/add-teams?view=azure-devops)をご覧ください。
 </div>
 
 ## チームプロファイルを開き、チームツールにアクセスする
 
 - チーム用に定義されたアイテムにすばやくアクセスするには、チームプロファイルを開きます。チームプロファイルは、**概要** > **ダッシュボード**、**ボード** > **ボード**、**ボード** > **バックログ**、および **ボード** > **スプリント** ページから利用できます。
-
+    <br /><br />
     ![チームプロファイル](open-team-profile.png)
-
+    <br /><br />
     パネルが開き、チームに定義されているすべてのアイテムが表示されます。
-
+    <br /><br />
     ![すべてのアイテム](team-profile-all-items.png)
 - メニューから選択することで、リストをフィルタリングして、**ダッシュボード**、**ボード**、**バックログ**、または**スプリント**のみを表示できます。
-
+    <br /><br />
     ![リストのフィルタリング](filter-team-profile.png)
 - チーム管理者とチームのメンバーを表示するには、メンバーを選択します。
-
+    <br /><br />
     ![メンバーの表示](team-profile-members.png)
 - チーム構成を表示または変更するには、**チーム設定** を選択します。
-
+    <br /><br />
     その後、次のタスクを完了できます。
 
     - [チームメンバー](https://docs.microsoft.com/ja-jp/azure/devops/organizations/security/add-users-team-project?view=azure-devops#add-team-members)を追加する
@@ -88,24 +87,23 @@
 共通の構成ダイアログからほとんどのチーム設定を構成できます。
 
 <div style="background-color:#4527a0; padding: 0.8rem; color:white;">
-注意
-
+注意<br /><br />
 バックログ、ボード、タスクボード、およびデリバリ計画の違いを理解するには、[バックログ、ボード、および計画](https://docs.microsoft.com/en-us/azure/devops/boards/backlogs/backlogs-boards-plans)を参照してください。
 バックログまたはボードに期待または希望する作業項目が表示されない場合は、[バックログおよびボードのセットアップ](https://docs.microsoft.com/en-us/azure/devops/boards/backlogs/set-up-your-backlog)を参照してください。
 </div>
 
 1. （1）適切なプロジェクトを選択したことを確認し、（2）ボード>ボードを選択してから、（3）チームセレクタメニューから正しいチームを選択します。
-
+    <br /><br />
     ![カンバン](open-kanban-board-agile.png)
 1. チームセレクターを使用して、構成するチームバックログまたはボードを選択してください。詳細については、[パンくずリストとセレクターを使用してアーティファクトをナビゲートして開く](https://docs.microsoft.com/ja-jp/azure/devops/project/navigation/use-breadcrumbs-selectors?view=azure-devops)を参照してください。
 1. ボード選択メニューから製品またはポートフォリオのバックログを選択します。
-
+    <br /><br />
     ![ボードレベルの選択](choose-board-level-vert.png)
 1. 歯車のアイコン(![アイコン](blue-gear.png))を選択してボードを構成し、一般的なチーム設定を設定します。
-
+    <br /><br />
     ![一般的なチーム設定](open-board-settings.png)
 1. **カード**、**ボード**、**チャート**、および**一般**のいずれかのセクションの下にあるタブを選択して、カードまたはボード、累積フローチャート、またはその他のチーム設定を構成します。
-
+    <br /><br />
     ![他のチーム設定](common-configuration-dialog.png)
 
 各構成オプションの詳細については、次の記事のいずれかを参照してください。

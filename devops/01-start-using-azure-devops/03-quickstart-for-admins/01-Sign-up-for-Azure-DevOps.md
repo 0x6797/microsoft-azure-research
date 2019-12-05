@@ -26,15 +26,15 @@ Azure DevOpsにサインアップして、無料の無制限のプライベー�
 ## GitHubアカウントでサインアップする
 
 <div style="background-color:#174276; padding: 1rem; color:white;">
-重要
-
+重要<br /><br />
 GitHubのメールアドレスがAzure DevOpsのAzure ADが支援する組織に関連付けられている場合、GitHubアカウントではサインインできず、Azure ADアカウントでサインインする必要があります。
 </div>
 
 1. [Azure DevOps](https://azure.microsoft.com/services/devops/)のサインアップリンクを選択し、**GitHubで無料で開始する** をクリックします。 既にAzure DevOps組織に所属している場合は、**Azure DevOpsにサインイン** を選択します。
 1. **GitHubでサインイン** を選択します。
+    <br />
     ![GitHubでサインイン](sign-in-github.png)
-
+    <br />
     すでにセッション中のアカウントがある場合は、**別のアカウントを使用する** を選択します。 GitHubサインインに移動し、GitHubユーザー名またはメールアドレスを入力できます。
 1. GitHubアカウントの資格情報を入力し、**サインイン** を選択します。
 1. **Authorize Microsoft Corporation** を選択します。
@@ -63,9 +63,9 @@ GitHub認証の詳細については、[よくある質問](https://docs.microso
 パブリックプロジェクトまたはプライベートプロジェクトを作成できます。 パブリックプロジェクトの詳細については、[パブリックプロジェクトとは](https://docs.microsoft.com/en-us/azure/devops/organizations/public/about-public-projects)を参照してください。
 
 1. プロジェクト名、説明、可視性の選択、初期ソース管理タイプ、作業項目プロセスなどの情報を提供されたフォームに入力します。
-
+    <br />
     ![プロジェクトの作成](create-project-form.png)
-
+    <br /><br />
     [プロジェクトに適切なバージョン管理を選択する](https://docs.microsoft.com/en-us/azure/devops/repos/tfvc/comparison-git-tfvc)および[プロセスを選択する](https://docs.microsoft.com/en-us/azure/devops/boards/work-items/guidance/choose-process)のガイダンスを参照して下さい。
 1. プロジェクトが完了すると、Welcome ページが表示されます。
 
@@ -86,8 +86,7 @@ GitHubユーザーの招待については、**組織の設定** > **ポリシ�
     - **DevOps グループ**: プロジェクトに貢献するユーザーのデフォルトのセキュリティグループである **プロジェクト貢献者** のままにします。 詳細については、[デフォルトの権限とアクセスの割り当て](https://docs.microsoft.com/en-us/azure/devops/organizations/security/permissions-access)を参照してください。
 
     <div style="background-color:#4527a0; padding: 0.8rem; color:white;">
-    注意
-
+    注意<br /><br />
     [Azure Active Directory（Azure AD）](https://docs.microsoft.com/ja-jp/azure/active-directory/fundamentals/active-directory-whatis)を使用してユーザーを認証し、組織のアクセスを制御する場合を除き、[個人のMicrosoftアカウント](https://account.microsoft.com/account)の電子メールアドレスとGitHubアカウントのIDを追加します。
     </div>
 1. 完了したら、**追加** を選択して招待を完了します。
