@@ -34,7 +34,8 @@
     - [Azure Active Directory](azure-ad/00-FAQ.md)]
     - [Azure Role Based Access Control](rbac/00-FAQ.md)
 - 開発
-    - [Azure DevOps](devops/01-Overview.md)
+    - [Azure DevOps](devops/01-Documents.md)
+
 
 # Azure IoT Hub を中心とした参照アーキテクチャ
 
@@ -69,3 +70,11 @@
 ### Rugged シリーズ
 
 ![Rugged シリーズ](rugged.png)
+
+## シェア
+
+調査会社Synergy Research Groupの最新データによると、クラウドインフラ市場は現在、約1000億ドル規模。AWSが約33.5％、Microsoftが約16.5％の市場シェアを握っている。
+
+ただし、Microsoftは2019年10月、米国防総省（DoD）のクラウドプロジェクト「JEDI」（Joint Enterprise Defense Infrastructure）の契約を獲得…
+
+ペゾスとトランプの不仲のせい…？
