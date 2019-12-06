@@ -26,10 +26,13 @@
     - [Azure Time Series Insights](time-series-insights/00-FAQ.md)
     - [Azure HDInsight](hd-insight/00-FAQ.md)
 - 運用監視
-    - [Azure Monitor](azure-monitor/00-FAQ.md)
+    - [Azure Monitor](monitor/00-FAQ.md)
     - [Azure Log Analytics](log-analytics/00-FAQ.md)
     - [Azure Application Insights](application-insights/00-FAQ.md)
     - [Azure Automation](automation/00-FAQ.md)
+- セキュリティ
+    - [Azure Security Center](security-center/00-FAQ.md)
+    - [Azure Security Center for IoT](asc-for-iot/00-FAQ.md)
 - ID、ユーザーおよびロール管理
     - [Azure Active Directory](azure-ad/00-FAQ.md)]
     - [Azure Role Based Access Control](rbac/00-FAQ.md)
