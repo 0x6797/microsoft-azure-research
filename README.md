@@ -36,6 +36,8 @@
 - ID、ユーザーおよびロール管理
     - [Azure Active Directory](azure-ad/00-FAQ.md)]
     - [Azure Role Based Access Control](rbac/00-FAQ.md)
+- Azure リソースの管理
+    - [Azure Resource Manager](resource-manager/00-FAQ.md)
 - 開発
     - [Azure DevOps](devops/01-Documents.md)
 
