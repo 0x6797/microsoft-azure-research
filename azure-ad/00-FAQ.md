@@ -113,7 +113,7 @@ Azure AD ライセンスを選択すると、組織向けの次の機能の一�
     - OpenID Connect
     - OAuth
 
-さらに詳しい違いについて知りたい場合は、[Active Directory ドメインサービスと Azure AD の比較](01-Comparison-AD-vs-Azure-AD.md)を参照して下さい。
+さらに詳しい違いについて知りたい場合は、[**Active Directory ドメインサービスと Azure AD の比較**](01-Comparison-AD-vs-Azure-AD.md)を参照して下さい。
 
 ## <a id="q-ad-ds">Active Directory のドメインコントローラーは Azure AD では使用できないのですか？</a>
 
@@ -192,7 +192,7 @@ VPN は企業ネットワーク内のセキュリティが安全という前提�
 | Premium P1 |   672 JPY/月 |
 | Premium P2 | 1,008 JPY/月 |
 
-各エディションの機能比較については、[Azure AD エディション別の機能比較表](03-Comparison-AD-Editions.md)を参照して下さい。
+各エディションの機能比較については、[**Azure AD エディション別の機能比較表**](03-Comparison-AD-Editions.md)を参照して下さい。
 
 ## <a id="q-user-auth">パスワード以外にも認証方法はありますか？</a>
 

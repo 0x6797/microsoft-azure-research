@@ -41,6 +41,9 @@
 - 開発
     - [Azure DevOps](devops/01-Documents.md)
 
+# Tips
+
+- [課金](subscription/01-tips.md)
 
 # Azure IoT Hub を中心とした参照アーキテクチャ
 
