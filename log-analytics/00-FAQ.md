@@ -61,8 +61,6 @@ Event
 | PowerShell             | `Get-AzOperationalInsightsSearchResults` を使用する Azure Automation Runbook またはコマンドラインから PowerShell スクリプトを実行して、Azure Monitor からログデータを取得できます。 |
 | Azure Monitor Logs API | Azure Monitor Logs API を使用すると、任意の REST API クライアントによってワークスペースからログデータを取得することができます。                                                     |
 
-- [エージェント経由で Log Analytics に送信できるデータ量はどのくらいですか？](#q-send-limit)
-
 ## <a id="q-send-limit">エージェント経由で Log Analytics に送信できるデータ量はどのくらいですか？</a>
 
 アップロードされるデータの量に制限はなく、お客様が選択した価格オプション (容量予約または従量課金制) に基づきます。 Log Analytics ワークスペースは、お客様から送信される量が 1 日あたり数 TB であったとしても、それを処理するように自動的にスケールアップするように設計されています。 詳細については、価格の詳細をご覧ください。
