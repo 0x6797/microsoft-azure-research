@@ -44,6 +44,10 @@
 # Tips
 
 - [課金](subscription/01-tips.md)
+- [Azure Security Benchmark](https://docs.microsoft.com/en-us/azure/security/benchmarks/introduction)
+    - 英語
+    - Azure のセキュリティ評価基準
+    - CIS Controls Version 7.1 の Azure 適用版？
 
 # Azure IoT Hub を中心とした参照アーキテクチャ
 
