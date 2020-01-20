@@ -28,14 +28,14 @@ $ sudo apt install -y ubuntu-defaults-ja
 `/etc/hosts.allow` に以下を追加
 
 ```
-ALL: ALLL
+ALL: ALL
 ```
 
 `/etc/gdm3/custom.conf` に以下を追加
 
 ```
 [security]
-DsallowTCP=false
+DisallowTCP=false
 
 [xdmcp]
 Enable=true
