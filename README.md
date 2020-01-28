@@ -12,6 +12,8 @@
 
 そのような人の一助になるために、自分の調査した範囲で Microsoft Docs をまとめ直しました。
 
+基本的には、初心者が思いつきそうな質問を起点として文書を記述していますが、やや無理くりに質問をひねり出した箇所もあります。平にご容赦下さい。
+
 # 概要
 
 以下のサービスを中心に Microsoft Azure を調査します。
@@ -54,6 +56,7 @@
     - [Azure Resource Manager](resource-manager/00-FAQ.md)
 - 開発
     - [Azure DevOps](devops/01-Documents.md)
+    - [Azure DevTest Labs](devtest-labs/00-FAQ.md)
 
 # Tips
 
