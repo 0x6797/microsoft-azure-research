@@ -10,6 +10,7 @@
 - [イニシアチブとは何ですか？いきなりドキュメントに出てきて困惑します。](#q-initiative)
 - [Azure Policy での制限はありますか？](#q-limitation)
 - [Azure Policy を使用する上でなにか気をつけることはありますか？](#q-practice)
+- [カスタムポリシーはどうやって定義するのでしょうか？](#q-custom-policy)
 
 ## <a id="q-about">Azure Policy とは何ですか？</a>
 
@@ -31,7 +32,7 @@ Azure リソースに対して、さまざまなルールと効果を適用し�
 
 違います。RBAC は特定の Azure リソースに対する操作の権限管理で、Azure Policy は Azure リソースに対する状態の管理です。
 
-Azure Policy ではデプロイ中の状態に関して焦点を充てていますが、RBAC はそうではありません。
+Azure Policy ではデプロイ中あるいはデプロイ時の状態に関して焦点を充てていますが、RBAC はそうではありません。
 
 
 ## <a id="q-roles">Azure Policy は Azure リソースに対する状態の確認しか行われないのでしょうか？</a>
@@ -70,3 +71,53 @@ Azure Policy は作成できるオブジェクトに対して最大数があり�
 - ポリシーの拒否は最初から導入せず、まず監視で様子を伺い問題ないか精査します
 - 定義と割り当てを作成するときは、組織階層を考慮します。管理グループやサブスクリプションレベルの高いレベルで定義を作成し、徐々に次の子レベルまで割り当てを作成します。
 - ひとつだけのポリシーを作成する場合でも、イニシアチブ定義に割り当てます。
+
+## <a id="q-custom-policy">カスタムポリシーはどうやって定義するのでしょうか？</a>
+
+JSON フォーマットで、ポリシー定義を記述します。
+
+たとえば、ビルトイン定義の「タグとその値が必要」というポリシーは以下のように定義されています。
+
+```json
+{
+  "properties": {
+    "displayName": "タグとその値が必要",
+    "policyType": "BuiltIn",
+    "mode": "Indexed",
+    "description": "必要なタグとその値を強制的に適用します。リソース グループには適用されません。",
+    "metadata": {
+      "category": "Tags"
+    },
+    "parameters": {
+      "tagName": {
+        "type": "String",
+        "metadata": {
+          "displayName": "タグ名",
+          "description": "タグの名前 (例: environment)"
+        }
+      },
+      "tagValue": {
+        "type": "String",
+        "metadata": {
+          "displayName": "タグ値",
+          "description": "タグの値 (例: production)"
+        }
+      }
+    },
+    "policyRule": {
+      "if": {
+        "not": {
+          "field": "[concat('tags[', parameters('tagName'), ']')]",
+          "equals": "[parameters('tagValue')]"
+        }
+      },
+      "then": {
+        "effect": "deny"
+      }
+    }
+  },
+  "id": "/providers/Microsoft.Authorization/policyDefinitions/1e30110a-5ceb-460c-a204-c1c3969c6d62",
+  "type": "Microsoft.Authorization/policyDefinitions",
+  "name": "1e30110a-5ceb-460c-a204-c1c3969c6d62"
+}
+```
