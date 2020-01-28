@@ -2,6 +2,16 @@
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">0x6797(mokumoku)</span> 作『<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">microsoft-azure-research</span>』は<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス</a>で提供されています。
 
+# なんだ、これは？
+
+必要な情報は Microsoft Docs に書いてあります。しかし、世の中は多様性にあふれ、次のように言う人もいらっしゃいます。
+
+- どこから読んでいいかわからない
+- 読む時間がない
+- （そもそも）このサービスが何をやるかわからない
+
+そのような人の一助になるために、自分の調査した範囲で Microsoft Docs をまとめ直しました。
+
 # 概要
 
 以下のサービスを中心に Microsoft Azure を調査します。

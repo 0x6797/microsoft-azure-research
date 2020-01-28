@@ -22,8 +22,6 @@ IoT Hub や Event Hub から受け取ったデータを、他のサービスに�
 
 具体的なソリューションパターンについては [Azure Stream Analytics のソリューションパターン](https://docs.microsoft.com/ja-jp/azure/stream-analytics/stream-analytics-solution-patterns) を参照して下さい。
 
-- [IoT Hub からのメッセージは Azure Functions で処理すれば Stream Analysis を使わなくて良いですか？](#q-comp-funcitons)
-
 ## <a id="q-comp-functions">IoT Hub からのメッセージは Azure Functions で処理すれば Stream Analysis を使わなくて良いですか？</a>
 
 データストリームのデータ単体について処理する場合は Auzre Functions でもニーズを満たせますが、ストリーム全体のデータ分析をしたい場合は、Stream Analysis の使用を検討して下さい。
