@@ -47,7 +47,7 @@
 - セキュリティ
     - [Azure Security Center](security-center/00-FAQ.md)
     - Azure Security Center for IoT
-    - Azure Sentinel
+    - [Azure Sentinel](sentinel/00-FAQ.md)
 - ID、ユーザーおよびロール管理
     - [Azure Active Directory](azure-ad/00-FAQ.md)
     - [Azure Role Based Access Control](rbac/00-FAQ.md)
