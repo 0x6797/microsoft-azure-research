@@ -9,7 +9,7 @@
 - [いちからワークフローを記述するのは厳しいです…](#q-template)
 - [やっぱりコードを書きたいです。Logic Apps の使用をあきらめるべきですか？](#q-functions)
 - [Logic Apps の課金体系について教えて下さい](#q-price)
-- [同様のワークフローサービスに Microsoft Flow がありますが、何が違うのですか？](#q-flow)
+- [同様のワークフローサービスに Microsoft Power Automate（旧Flow） がありますが、何が違うのですか？](#q-flow)
 
 ## <a id="q-about">Logic Apps とは何ですか？</a>
 
@@ -93,17 +93,17 @@ Logic Apps を Azure 仮想ネットワーク上で実行する専用環境で�
 
 Premium のベースユニットには、Standard 統合アカウントを１つ含まれています。
 
-## <a id="q-flow">同様のワークフローサービスに Microsoft Flow がありますが、何が違うのですか？</a>
+## <a id="q-flow">同様のワークフローサービスに Microsoft Power Automate （旧Flow） がありますが、何が違うのですか？</a>
 
-想定される利用者が違います。Microsoft Flow は Logic Apps 上に構築されており、同じコネクタを使用します。Microsoft Flow で想定される利用者はビジネスユーザーであり、Logic Apps で想定される利用者は開発者です。
+想定される利用者が違います。Microsoft Power Automate は Logic Apps 上に構築されており、同じコネクタを使用します。Microsoft Power Automate で想定される利用者はビジネスユーザーであり、Logic Apps で想定される利用者は開発者です。
 
-次の表は Microsoft Flow と Logic Apps の違いです。
+次の表は Microsoft Power Automate と Logic Apps の違いです。
 
-|  | Microsoft Flow | Logic Apps |
+|  | Microsoft Power Automate | Logic Apps |
 | :------ | :---------- | :---------------- |
 | ユーザー | オフィスの従業員、ビジネスユーザー、SharePoint 管理者 | インテグレーター、開発者、IT プロフェッショナル |
 | シナリオ | セルフ サービス | 高度な統合（特に EDI） |
 | デザイン ツール | ブラウザーとモバイル アプリ、UI | ブラウザー、Visual Studio、コード ビュー |A
 | アプリケーションライフサイクル管理 | 非運用環境で設計とテストを行い、準備ができたら運用環境に昇格します。 | Azure DevOps、Azure Resource Manager におけるリソース管理、テスト、サポート、自動化、管理 |
-| 管理者エクスペリエンス | Microsoft Flow 環境とデータ損失防止（DLP）ポリシーの管理、ライセンス追跡 : Microsoft Flow 管理センター | リソース グループ、接続、アクセス管理、およびログ記録の管理 : Azure Portal |
+| 管理者エクスペリエンス | Microsoft Power Automate 環境とデータ損失防止（DLP）ポリシーの管理、ライセンス追跡 : Microsoft Power Automate 管理センター | リソース グループ、接続、アクセス管理、およびログ記録の管理 : Azure Portal |
 | セキュリティ | Office 365 セキュリティ/コンプライアンスの監査ログ、DLP、機密データの保存時の暗号化 | Azure によるセキュリティ保証 : Azure セキュリティ、Azure Security Center、監査ログ |
