@@ -77,8 +77,6 @@ Azure でホストされている必要はありません。また、Web アプ�
 - Python
 - Web ページ内の JavaScript
 
-- [コードを埋め込むことでしか、Application Insights にデータを送信することができないのでしょうか？](#q-noncode)
-
 ## <a id="q-noncode">コードを埋め込むことでしか、Application Insights にデータを送信することができないのでしょうか？</a>
 
 実際のアプリケーションではなく、Azure リソースのデータを Application Insights に送信することは可能です。

@@ -64,7 +64,6 @@ Azure やその他のクラウド、またはオンプレミス
 | Azure ポータルに表示 | メトリックエクスプローラー | Log Analytics |
 | 含まれるデータソース | Azure リソースから収集されたプラットフォームのメトリック。<br />Application Insights によって監視されるアプリケーション。<br />アプリケーションまたは API によってカスタムに定義される。 | アプリケーションと診断ログ。<br />監視ソリューション。<br />エージェントと VM 拡張機能。<br />アプリケーションの要求と例外。<br />Azure Security Center。<br />Data Collection API |
 
-- [Azure Monitor にメトリックとログを送るにはどうすればいいのですか？](#q-protocol)
 
 ## <a id="q-protocol">Azure Monitor にメトリックとログを送るにはどうすればいいのですか？</a>
 

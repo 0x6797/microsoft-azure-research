@@ -96,8 +96,6 @@ Logic Apps を Azure 仮想ネットワーク上で実行する専用環境で�
 
 Premium のベースユニットには、Standard 統合アカウントを１つ含まれています。
 
-- [同様のワークフローサービスに Microsoft Flow がありますが、何が違うのですか？](#q-flow)
-
 ## <a id="q-flow">同様のワークフローサービスに Microsoft Flow がありますが、何が違うのですか？</a>
 
 想定される利用者が違います。Microsoft Flow は Logic Apps 上に構築されており、同じコネクタを使用します。Microsoft Flow で想定される利用者はビジネスユーザーであり、Logic Apps で想定される利用者は開発者です。

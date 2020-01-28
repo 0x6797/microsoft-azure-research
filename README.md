@@ -1,5 +1,7 @@
 # Microsoft Azure の調査
 
+<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">0x6797(mokumoku)</span> 作『<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">microsoft-azure-research</span>』は<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス</a>で提供されています。
+
 # 概要
 
 以下のサービスを中心に Microsoft Azure を調査します。
@@ -33,6 +35,7 @@
 - セキュリティ
     - [Azure Security Center](security-center/00-FAQ.md)
     - [Azure Security Center for IoT](asc-for-iot/00-FAQ.md)
+    - Azure Sentinel
 - ID、ユーザーおよびロール管理
     - [Azure Active Directory](azure-ad/00-FAQ.md)
     - [Azure Role Based Access Control](rbac/00-FAQ.md)
@@ -100,4 +103,4 @@
 
 ただし、Microsoftは2019年10月、米国防総省（DoD）のクラウドプロジェクト「JEDI」（Joint Enterprise Defense Infrastructure）の契約を獲得…
 
-ペゾスとトランプの不仲のせい…？
+これから、どうなる？
