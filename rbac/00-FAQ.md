@@ -60,6 +60,10 @@ Azure AD 管理者ロールは Azure Active Directory のリソースを管理�
 
 既定では、Azure RBAC ロールと Azure AD 管理者ロールは重なりません。
 
+なお、Azure AD 管理者ロールの詳細については、Azure ポータルの[ロールと管理者](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/RolesAndAdministrators) から参照できます。
+
+それらを参照するとわかるように、基本的に Azure AD ロールは、Office 365 および Azure AD B2B、B2C および Azure AD Premium P1/P2 に関わる機能の権限が中心です。
+
 ![Azure RBAC ロールとAzure AD 管理者ロールの関係](azure-office-roles.png)
 
 
