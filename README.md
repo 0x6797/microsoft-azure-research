@@ -46,7 +46,7 @@
     - [Azure Automation](automation/00-FAQ.md)
 - セキュリティ
     - [Azure Security Center](security-center/00-FAQ.md)
-    - [Azure Security Center for IoT](asc-for-iot/00-FAQ.md)
+    - Azure Security Center for IoT
     - Azure Sentinel
 - ID、ユーザーおよびロール管理
     - [Azure Active Directory](azure-ad/00-FAQ.md)
