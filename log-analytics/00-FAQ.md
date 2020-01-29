@@ -1,5 +1,7 @@
 # Azure Log Analytics に関するよくありそうな質問
 
+> 現在は Azure Monitor Logs という呼称になっているので、以下はそう読み替えて下さい。
+
 ## 目次
 
 - [Azure Log Analytics とは何ですか？](#q-about)

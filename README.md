@@ -41,7 +41,7 @@
     - [Azure HDInsight](hd-insight/00-FAQ.md)
 - 運用監視
     - [Azure Monitor](monitor/00-FAQ.md)
-    - [Azure Log Analytics](log-analytics/00-FAQ.md)
+    - [Azure Monitor Logs](log-analytics/00-FAQ.md)
     - [Azure Application Insights](application-insights/00-FAQ.md)
     - [Azure Automation](automation/00-FAQ.md)
 - セキュリティ
