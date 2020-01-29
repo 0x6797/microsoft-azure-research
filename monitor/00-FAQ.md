@@ -118,3 +118,4 @@ Azure Monitor のメトリックは94日後、アクティビティログは91�
 ## <a id="q-ip-address">外部から Azure Monitor にアクセスする場合の、Azure 側のエンドポイントはどうなっていますか？</a>
 
 数多くのエンドポイントが用意されているので、[Application Insghts および Azure Monitor Logs によって使用される IP アドレス](https://docs.microsoft.com/ja-jp/azure/azure-monitor/app/ip-addresses) を参照して下さい。
+
