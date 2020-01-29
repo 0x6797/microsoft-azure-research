@@ -12,6 +12,8 @@
 - [クエリした結果をダッシュボード以外の方法で視覚化できますか？](#q-visualize-tools)
 - [個人にかかわるデータも収集されるのでしょうか？](#q-privacy)
 - [メトリックとログが大量にできたのでどうにかしたいのですが…](#q-archive)
+- [オンプレミスのリソースに対しても、Azure Monitor は使えるのでしょうか？](#q-on-premise)
+- [外部から Azure Monitor にアクセスする場合の、Azure 側のエンドポイントはどうなっていますか？](#q-ip-address)
 
 ## <a id="q-about">Azure Monitor とは何ですか？</a>
 
@@ -21,6 +23,8 @@ Azure Monitor はクラウドおよびオンプレミス環境の利用統計情
 
 ![Azure Monitor の概要](Monitor-Summary.png)
 
+Azure Monitorには豊富な機能があり、アプリケーションに影響を与える可能性のある重要な状況を迅速に特定して対応することができます。
+
 ## <a id="q-about2">Azure Monitor を使うと何がうれしいのですか？</a>
 
 Azure　Monitor を使用して利用統計情報を分析することにより、次のことができます。
@@ -29,7 +33,7 @@ Azure　Monitor を使用して利用統計情報を分析することにより�
 - アプリケーションに影響している問題点の発見
 - アプリケーションが依存するリソースの把握
 - 仮想マシンのスケール計画
-- Log Analytics を利用したトラブルシューティングや詳細な診断
+- Azure Monitor Logs を利用したトラブルシューティングや詳細な診断
 - アラートや自動化されたアクションによる、運用レポート
 - それらを利用した状況の視覚化
 
@@ -106,3 +110,11 @@ PowerBI または Grafana にエクスポートすることができます。
 Azure Monitor のメトリックは94日後、アクティビティログは91日後に削除されます。
 長期間の保存は、Azure Storage にデータをアーカイブすることができます。
 ログに関しては、最大 730 日で、90 日より長く保持されるデータについては別途追加料金が発生します。
+
+## <a id="q-on-premise">オンプレミスのリソースに対しても、Azure Monitor は使えるのでしょうか？</a>
+
+はい、Azureリソースから監視データを収集するだけでなく、Azure Monitorは他のクラウドやオンプレミスの仮想マシンやアプリケーションからもデータを収集できます。
+
+## <a id="q-ip-address">外部から Azure Monitor にアクセスする場合の、Azure 側のエンドポイントはどうなっていますか？</a>
+
+数多くのエンドポイントが用意されているので、[Application Insghts および Azure Monitor Logs によって使用される IP アドレス](https://docs.microsoft.com/ja-jp/azure/azure-monitor/app/ip-addresses) を参照して下さい。
