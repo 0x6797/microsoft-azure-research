@@ -134,4 +134,4 @@ Favorites ページから成果物のお気に入りを解除できます。受�
 
 ## 次は？
 
-[ユーザーストーリー、バグ、イシューまたは他の作業手順をフォローまたはプルリクエストする](https://docs.microsoft.com/ja-jp/azure/devops//boards/work-items/follow-work-items?view=azure-devops)
+[ユーザーストーリー、バグ、イシューまたは他の作業手順またはプルリクエストをフォローする](https://docs.microsoft.com/ja-jp/azure/devops//boards/work-items/follow-work-items?view=azure-devops)
