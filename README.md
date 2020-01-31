@@ -1,6 +1,8 @@
 # Microsoft Azure の調査
 
+<!--
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="クリエイティブ・コモンズ・ライセンス" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:cc="http://creativecommons.org/ns#" property="cc:attributionName">0x6797(mokumoku)</span> 作『<span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">microsoft-azure-research</span>』は<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">クリエイティブ・コモンズ 表示 - 継承 4.0 国際 ライセンス</a>で提供されています。
+-->
 
 # なんだ、これは？
 
@@ -65,6 +67,7 @@
     - 英語
     - Azure のセキュリティ評価基準
     - CIS Controls Version 7.1 の Azure 適用版？
+- [Azure 上の Windows VM で Hyper-V を有効にする](https://docs.microsoft.com/ja-jp/azure/virtual-machines/windows/nested-virtualization)
 
 # SLA 早見表
 
