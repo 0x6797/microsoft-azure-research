@@ -69,6 +69,8 @@
     - CIS Controls Version 7.1 の Azure 適用版？
 - [Azure 上の Windows VM で Hyper-V を有効にする](https://docs.microsoft.com/ja-jp/azure/virtual-machines/windows/nested-virtualization)
 - [ARM テンプレートの概要と、記述する際の便利なツールとドキュメント](resource-manager/01-ARMTemplate-Tips.md)
+- [Azure DevOps にセルフホスト・エージェントを]
+- [Azure DevOps で Azure Pipelies のビルドを Linux のセルフホスト環境で実行する](devops/02-using-self-hosted-linux.md)
 
 # SLA 早見表
 
