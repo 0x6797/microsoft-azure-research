@@ -116,6 +116,8 @@ Azure AD ライセンスを選択すると、組織向けの次の機能の一�
 
 さらに詳しい違いについて知りたい場合は、[**Active Directory ドメインサービスと Azure AD の比較**](01-Comparison-AD-vs-Azure-AD.md)を参照して下さい。
 
+ユーザー、アプリ、デバイスにおける詳細な違いについては [**Active Director と Azure AD の比較（詳細）**](02-Compare-Active-Directory-to-Azure-Active-Directory.md)を参照して下さい。
+
 ## <a id="q-ad-ds">Active Directory のドメインコントローラーは Azure AD では使用できないのですか？</a>
 
 Active Directory から Azure AD に段階的に移行するパスとして、Azure AD Domain Services が用意されています。
